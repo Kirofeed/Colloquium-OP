@@ -20,7 +20,7 @@ set(SOURCE_FILES
 enable_testing()
 
 # Указываем путь к GTest (путь может отличаться в зависимости от вашей системы)
-find_package(GTest REQUIRED PATHS /opt/homebrew/Cellar/googletest/<version>/lib/cmake/GTest)
+find_package(GTest REQUIRED PATHS /opt/homebrew/Cellar/googletest/1.16.0/lib/cmake/GTest)
 
 # Добавляем директорию с заголовочными файлами
 include_directories(${GTEST_INCLUDE_DIRS})
